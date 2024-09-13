@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <!---------------------- Font link --------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umm-e-Hani's Interactive Resume</title>
+</head>
+<body>
+
+    <div class="resume-container">
+
+    <!----------------- PERSONAL INFORMATION ----------------->
+        <section class="personal-info" id="personal-info">
+            <h1>Personal Information</h1>
+            <p>Name: <strong>Umm-e-Hani</strong></p>
+            <p>Email: <strong>hanirh2468@gmail.com</strong></p>
+            <p><strong>Karachi, Pakistan</strong></p>
+            <p>Instagram: <a href="https://www.instagram.com/_ummehani021?igsh=MWp2ZjViNnlwc2JlZA==" target="_blank"><strong>www.instagram.com</strong></a></p>
+            <p>Linkdein: <a href="https://www.linkedin.com/in/umm-e-hani-400b812b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><strong>www.linkdein.com</strong></a></p>
+            
+            <img src="pfp.jpg" alt="profile-pic" class="profile-pic">
+
+        </section>
+
+    <!---------------------- EDUCATION ----------------------->
+
+        <section class="education">
+            <h1>EDUCATION</h1>
+            <div id="education">
+                <h2>Class 9 Student</h2>
+            <ul>
+                <li>Focusing on studies and personal development.</li>
+            </ul>
+            <h2>Governor Sindh IT Initiative (GIAIC)</h2>
+            <ul>
+                <li>Engaged in courses related to AI and Web Development.</li>
+            </ul>
+            </div>
+            
+            <button id="toggleEducation">Hide Education</button>
+        </section>
+
+    <!---------------------- SKILLS ----------------------->
+    
+        <section class="skills">
+            <h1>Skills</h1>
+            <ul id="skillsList">
+                <li>Sketching</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+            </ul>
+            <button id="toggleSkills">Hide Skills</button>
+        </section>
+
+    <!-------------------- WORK EXPERINCE --------------------->
+    
+        <section class="work-experience">
+            <h1>Work Experience</h1>
+            
+            <p id="workExperience">No Work Experience <br><br>
+                   Currently focused on learning and developing skills in web development and technology.</p>
+            
+            <button id="toggleWorkExperience">Hide Work Experience</button>
+
+        </section>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
