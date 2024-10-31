@@ -1,6 +1,5 @@
 body {
   background-color: rgba(6, 97, 97, 0.267);
-  /* padding: 0px; */
   margin: 5px;
   font-family: Arial, sans-serif;
 }
@@ -103,4 +102,94 @@ button:hover {
 
 button:active {
   opacity: 0.6;
+}
+
+@media(max-width:1084px){
+  .resume-container {
+    width: 50%;
+  }
+}
+
+@media(max-width:769px){
+  .resume-container {
+    width: 60%;
+  }
+}
+
+@media(max-width:647px){
+ .name{
+    font-size: 23px;
+  }
+  .aim{
+    margin-top: -15px;
+  }
+  .personal-info h1,
+  .skills h1,
+  .education h1,
+  .work-experience h1,
+  .career h1{
+    font-size: large;
+    width: 80%;
+  }
+}
+
+@media(max-width:630px){
+  .resume-container{
+    width: 75%;
+  }
+}
+
+@media(max-width:510px){
+  p, ul{
+    font-size: 11px;
+  }
+}
+
+@media(max-width:466px){
+  .resume-container{
+    height: 570px;
+    width: 80%;
+  }
+  .left-container{
+    height: 500px;
+    margin-left: -10px;
+  }
+  .right-container{
+    padding-left: 12px;
+  }
+}
+
+@media(max-width:394px){
+  p{
+    font-size: 10px;
+  }
+  .resume-container{
+    height: 590px;
+    width: 80%;
+  }
+  .profile-pic{
+    height: 90px;
+    width: 90px;
+    margin-left: 2px;
+  }
+  ul{
+    padding-left: 20px;
+  }
+  button {
+   height: 25px;
+   font-size: 10px;
+   padding: 5px;
+  }
+}
+
+@media(max-width:343px){
+  .resume-container{
+    height: 630px;
+  }
+  .left-container{
+    padding: 4px;
+  }
+  .profile-pic{
+    margin-left: 4px;
+  }
 }
